@@ -1,0 +1,7 @@
+- name: set up {{ component }} server
+  hosts: "{{ component }}"
+  become: yes
+  roles:
+  - "{{ component }}"
+  # model 2
+  # ansible-playbook -i inventory.ini main.yml -e "component=mongodb"
