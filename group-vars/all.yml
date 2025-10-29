@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.malleswari.
+MONGODB_HOST: mongodb.malleswari.fun
 REDIS_HOST: redis.malleswari.fun
 CATALOGUE_HOST: catalogue.malleswari.fun
 MYSQL_HOST: mysql.malleswari.fun
-CRAT_HOST: cart.malleswari.fun:8080
-USER_HOST: user.malleswari.fun:8080
-RABBITMQ_HOST: rabbitmq.malleswari.fun:8080
-SHIPPING_HOST: shipping.malleswari.fun:8080
-PAYMENT_HOST: payment.malleswari.fun:8080
+CRAT_HOST: cart.malleswari.fun
+USER_HOST: user.malleswari.fun
+RABBITMQ_HOST: rabbitmq.malleswari.fun
+SHIPPING_HOST: shipping.malleswari.fun
+PAYMENT_HOST: payment.malleswari.fun
