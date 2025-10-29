@@ -20,9 +20,9 @@
     community.mysql.mysql_db:
       state: import
       name: all
-      login_host: {{ MYSQL_HOST }}
-      login_user:{{ LOGIN_USER }}
-      login_password: {{ LOGIN_PASSWORD }} 
+      login_host: "{{ MYSQL_HOST }}"
+      login_user:"{{ LOGIN_USER }}"
+      login_password: "{{ LOGIN_PASSWORD }}" 
       target: "{{ item }}" 
     loop:
     - /app/db/schema.sql
